@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* Estilos CSS para el menú */
+nav {
+  background-color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(151, 206, 238);
+  padding: 8px;
+}
+
+li:hover > ul.submenu {
+  display: block;
+}
+
+#icono {
+  width: 40px;
+  height: 40px;
+}
+
+#iconoP {
+  width: 60px;
+  height: 60px;
+}
+
+#redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#redesP {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#redes a {
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+header {
+  width: auto;
+  margin: 0 auto 0 auto;
+}
+
+#admin {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-color: #8d9db6;
+  float: left;
+  height: auto;
+  flex: 1 0 auto;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  background-color: #8d9db6;
+  float: left;
+  height: auto;
+  flex: 1 0 auto;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  background-color: #ccc;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #ccc;
+  float: left;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: red;
+}
+
+#contenedor {
+  width: 100%;
+}
+
+#recomendados {
+  padding: 10px;
+}
+
+#contenido {
+  padding: 10px;
+}
+
+body {
+  background-color: #8d9db6;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table td, table th {
+  border: 1px solid black; /* Agrega un borde de 1 píxel sólido en todas las celdas */
+  padding: 8px; /* Espacio interno dentro de las celdas */
+}
+
+/* Aplica un color de fondo a la primera fila (encabezado) */
+table thead {
+  background-color: #ccc;
+}
+
+#tablaa {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Informacion {
+  font-size: 40px;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  display: flex;
+  justify-content: right;
+}
+
+.input input {
+  width: 200px; /* Ajusta el ancho deseado */
+  text-align: center;
+}
+
+#adminI {
+  text-align: center;
+}
+
+article {
+  text-align: justify;
+  margin-right: 40px;
+}
+
+#perro {
+  width: 400px;
+  height: 200px;
+}
+
+#perroIQ {
+  width: 400px;
+  height: 500px;
+}
+
+#perroL {
+  width: 300px;
+  height: auto;
+}
+
+#perroI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#perroLH {
+  text-align: justify;
+  padding: 20px;
+}/*# sourceMappingURL=estilo2.css.map */
